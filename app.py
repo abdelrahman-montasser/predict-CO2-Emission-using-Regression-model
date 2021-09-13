@@ -5,7 +5,7 @@ import pickle
 
 #Initialize the flask App
 app = Flask(__name__)
-model = pickle.load(open('C:\\Users\\dell\\Desktop\\deploheroku-master\\co2_em.pickle', 'rb'))
+model = pickle.load(open('co2_em.pickle', 'rb'))
 
 #default page of our web-app
 @app.route('/')
